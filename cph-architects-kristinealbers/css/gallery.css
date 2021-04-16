@@ -1,0 +1,35 @@
+.main-gallery {
+    display: flex;
+    justify-content: center;
+}
+
+.main-gallery-container {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0px 20px 0px;
+}
+
+.gallery-img {
+    height: 110px;
+    width: 107px;
+    object-fit: cover;
+    margin: 5px;
+}
+
+@media(min-width: 376px){
+
+.main-gallery-container {
+    width: 710px;
+    margin: 60px 0px 60px 0px;
+}
+
+.gallery-img {
+    height: 153px;
+    width: 221px;
+    object-fit: cover;
+    margin: 5px;
+}
+
+}
